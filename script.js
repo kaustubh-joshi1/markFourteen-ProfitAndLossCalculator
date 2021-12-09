@@ -17,7 +17,7 @@ function handleClick(){
     if(checkValues(stockArr)){
         calculateProfitOrLoss(stockArr)
     } else {
-        showMessage("Let us check this quickly for you!")
+        showMessage("Please enter positive numbers only!")
     }
 }
 
