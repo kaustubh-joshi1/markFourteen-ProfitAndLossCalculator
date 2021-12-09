@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Baloo Bhai 2';
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgb(205, 241, 137),#48b17a);
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #10B981;
+}
+
+.stock-inputs{
+    margin: 0.5rem 0;
+}
+
+.init, .qty, .curr{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+input{
+    font-size: 1.25rem;
+    padding: 0.4rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    border: 2px solid black;
+    min-width: 375px;
+}
+
+.calc{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.75rem;
+}
+
+#calc-btn {
+    border-radius: 15px;
+    color: rgb(5, 1, 12);
+    font-size: 1.5rem;
+    background-color: #ace7d4;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 2px solid #000000;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.output{
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #10B981;
+    min-height: fit-content;
+
+  }
+  footer a{
+    font-size: 1.5rem;
+    color: rgb(5, 1, 12);
+    padding: 0.5rem;
+    margin-top: 1rem;
+    /* margin-right: 1rem; */
+  
+  }
+  
+  footer a:not(:last-child){
+    margin-right: 1rem;
+  }
+  
+  footer p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(5, 1, 12);
+
+  }
+  
+
+
