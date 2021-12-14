@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock Profile & Loss Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0ae1aebe6f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="title">
@@ -13,34 +14,30 @@
     </div>
     <div class="stock-inputs">
         <div class="init">
-            <label for="stock">Intial Price</label>
-            <input type="number" name="init-price" id="stock" min="1" step="0.01" placeholder="Enter Initial Price Here">
+            <label for="stock">BUY Price (Rs.):</label>
+            <input type="number" name="init-price" id="stock" min="1" step="0.01">
         </div>
         <div class="qty">
-            <label for="stock">Quantity of Stocks</label>
-            <input type="number" name="stocks-qty" id="stock" min="1" placeholder="Enter The Number Of Stocks Bought">
+            <label for="stock">Quantity of Stocks:</label>
+            <input type="number" name="stocks-qty" id="stock" min="1">
         </div>
         <div class="curr">
-            <label for="stock">Current Price</label>
-            <input type="number" name="curr-price" id="stock" min="1" placeholder="Enter The Current Price of Stocks">
+            <label for="stock">CURRENT Price (Rs.):</label>
+            <input type="number" name="curr-price" id="stock" min="1">
         </div>
     </div>
     <div class="output">&nbsp;</div>
     <div class="calc">
-        <button id="calc-btn">Tell Me!</button>
+        <button id="calc-btn">Calculate!</button>
     </div>
-    <footer>
+    <div class="bottom-container">
         <div class="icons">
-            <a href=" https://twitter.com/erkaustubhjoshi" target="_blank" > </i><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/kaustubh-joshi-88173b224/" target="_blank" ><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/kaustubh-joshi1" target="_blank" ><i class="fab fa-github"></i></a>
+            <a class="footer-link" href=" https://twitter.com/erkaustubhjoshi" target="_blank" > </i><i class="fab fa-twitter"></i></a>
+            <a class="footer-link" href="https://www.linkedin.com/in/kaustubh-joshi-88173b224/" target="_blank" ><i class="fab fa-linkedin-in"></i></a>
+            <a class="footer-link" href="https://github.com/kaustubh-joshi1" target="_blank" ><i class="fab fa-github"></i></a>
         </div>
-        <p>© | 2021 | Kaustubh Joshi </p>
-  
-    </footer>
-  
-    <script src="https://kit.fontawesome.com/0dbbe70cac.js" crossorigin="anonymous"></script>
-  
+        <p class="copyright">© | 2021 | Kaustubh Joshi </p>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
